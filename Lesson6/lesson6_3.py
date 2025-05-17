@@ -1,5 +1,6 @@
 import random
 
+#建立function是讓邏輯變清楚
 def play_game():
     min = 1
     max = 100
@@ -26,5 +27,10 @@ def play_game():
             print("請輸入提示範圍內的數字")
 
 #呼叫功能
-play_game()
+while(True):
+    play_game()
+    play_again = input("再說一次(y,n):")
+    if (play_again == "n"):
+        break
+
 print("遊戲結束")
