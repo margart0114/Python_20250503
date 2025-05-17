@@ -25,5 +25,6 @@ def play_game():
         else:
             print("請輸入提示範圍內的數字")
 
+#呼叫功能
 play_game()
 print("遊戲結束")
