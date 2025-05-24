@@ -12,8 +12,8 @@ def get_state(b:float) ->str:
       return "輕度肥胖"
    elif b < 35:
       return "中度肥胖"
-   else b > 35: 
-return "重度肥胖"
+   else 
+      return "重度肥胖"
     
 
 height: int = int (input("請輸入身高(cm):"))
@@ -21,3 +21,4 @@ weight: int = int (input("請輸入體重(kg):"))
 
 bmi = caculate_bmi (height, weight)
 print(bmi)
+print(get_state(bmi))
