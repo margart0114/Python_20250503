@@ -9,5 +9,6 @@ def main():
     print(tools.get_state(bmi))
 
 if __name__ == "__main__":
+
     main()
 
